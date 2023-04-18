@@ -31,10 +31,9 @@ Mijn startniveau is: Rood
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Animaties met css 
+  - Position met css 
+  - Interactie met css & js 
  
 </details>
 
