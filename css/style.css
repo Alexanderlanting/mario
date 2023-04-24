@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    overflow-x: scroll;
+
+    overscroll-behavior-x: contain;
+}
+
+.body1 {
+    background-color: lightgrey;
+}
+
+.body2 {
+    background-color: lightblue;
+}
+
+.body3 {
+    background-color: lightcoral;
+}
+
+.body4 {
+    background-color: lightpink;
+}
+
+.body5 {
+    background-color: lightyellow;
+}
+
+.body6 {
+    background-color: lightsalmon;
+}
+
+.body7 {
+    background-color: lightgreen;
+}
+
+.body8 {
+    background-color: lightseagreen;
+}
+
+#road {
+    height: 16em;
+    background-color: grey;
+    background: repeating-linear-gradient(to right, #616161, #616161 4em, #696969 4em, #696969 8em);
+    width: 100%;
+    margin-top: auto;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.body2 #road {
+    position: relative;
+    background: none;
+    background-color: #535653;
+}
+
+.body3 #road {
+    background: repeating-linear-gradient(to right, #737A77, #737A77 4em, #93969B 4em, #93969B 8em);
+}
+
+.body4 #road {
+    background: none;
+    background-color: #44443D;
+    border-top: 4px solid #E8C655;
+    border-bottom: 4px solid #E8C655;
+
+}
+
+.body5 #road {
+    background: linear-gradient(1turn, #42423E -50%, #6B6C67, #42423E 150%);
+    border-top: 4px solid #E8C655;
+    border-bottom: 4px solid #E8C655;
+}
+
+.body6 #road {
+    background: repeating-linear-gradient(to right, #827870, #827870 4em, #91877F 4em, #91877F 8em);
+}
+
+.body7 #road {
+    background: repeating-linear-gradient(to right, #6B6365, #6B6365 4em, #7D7576 4em, #7D7576 8em);
+}
+
+.body8 #road {
+    background: none;
+    background-color: #5B5A61
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: url("../img/background/snes.jpg");
+    background-size: contain;
+    background-position: bottom;
+    ;
+}
+
+.body2 .background {
+    background-image: url("../img/background/64.jpg");
+}
+
+.body3 .background {
+    background-image: url("../img/background/super-circuit.jpg");
+}
+
+.body4 .background {
+    background-image: url("../img/background/double-dash.jpg");
+}
+
+.body5 .background {
+    background-image: url("../img/background/ds.jpg");
+}
+
+.body6 .background {
+    background-image: url("../img/background/wii.jpg");
+}
+
+.body7 .background {
+    background-image: url("../img/background/kart7.jpg");
+}
+
+.body8 .background {
+    background-image: url("../img/background/kart8.jpg");
+}
+
+#grass {
+    height: 6em;
+    width: 100%;
+    background-color: #48bb31;
+}
+
+#grass section {
+    display: flex;
+    width: 1200vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+    background-image: url("../img/textures/01.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.body2 #grass section {
+    background-image: url("../img/textures/02.jpg");
+}
+
+.body3 #grass section {
+    background-image: url("../img/textures/03.jpg");
+}
+
+.body4 #grass section {
+    background-image: url("../img/textures/04.jpg");
+}
+
+.body5 #grass section {
+    background-image: url("../img/textures/05.jpg");
+}
+
+.body6 #grass section {
+    background-image: url("../img/textures/06.jpg");
+}
+
+.body7 #grass section {
+    background-image: url("../img/textures/07.jpg");
+}
+
+.body8 #grass section {
+    background-image: url("../img/textures/08.jpg");
+}
+
+#grass section h2 {
+    position: fixed;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+}
+
+#grass section h2:nth-of-type(1) {
+    left: 30px;
+    margin: 0;
+}
+
+#grass section h2:nth-of-type(2) {
+    right: 30px;
+    margin: 0;
+}
+
+.scroll-container {
+    width: 1200vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+#mario1,
+#mario2,
+#mario3,
+#mario4,
+#mario5,
+#mario6,
+#mario7,
+#mario8 {
+    width: 150px;
+    height: 150px;
+    position: sticky;
+    left: 10%;
+    bottom: 10em;
+    display: inline-block;
+    z-index: 999;
+}
+
+.mario-animate {
+    animation: moving;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes moving {
+    0% {
+        bottom: 10em;
+        transition: ease-in;
+    }
+
+    50% {
+        bottom: 11em;
+        transition: ease-in;
+    }
+
+    100% {
+        bottom: 10em;
+        transition: ease-out;
+    }
+}
+
+
+#flag1,
+#flag2,
+#flag3,
+#flag4,
+#flag5,
+#flag6,
+#flag7,
+#flag8 {
+    position: relative;
+    width: 4em;
+    height: 16em;
+    margin-left: 100vw;
+    display: inline-block;
+    background: repeating-conic-gradient(#ffffff 0% 25%, #000000 0% 50%) 0% / 40% 10%;
+}
