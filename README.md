@@ -76,10 +76,12 @@ Mijn startniveau is: Rood
   
   ### Bevinding 1:
   De html code heeft veel classes en ID's die niet noodzakelijk zijn
+<br>
   <img src="readme-images/index-24-04-2023.png" width="375px" alt="HTML met veel classes en ID's">
 
   #### oplossing:
   Ik heb alle classes en ID's die niet nodig zijn weg gehaald en in de css anders aangesproken. Ook heb ik wat onnodige wrapper elementen weggehaald, en   divs vervangen voor sections. 
+<br>
   <img src="readme-images/index-24-04-2023-v1.png" width="375px" alt="HTML met minder classes en ID's">
 
 
