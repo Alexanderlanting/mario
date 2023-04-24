@@ -46,10 +46,13 @@ Mijn startniveau is: Rood
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik heb nu de basis van mijn concept uitgewerkt in codepen. Ik moet de styling en andere interactieve elementen nog toevoegen.
+  <br>
+  <img src="readme-images/codepen-20-04-2023.png" width="375px" alt="Codepen website opzet">
+
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik ga de code nu van codepen naar lokaal verplaatsen zodat ik aan de styling en andere elementen kan werken. 
 
 
 
