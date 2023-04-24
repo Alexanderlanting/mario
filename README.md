@@ -75,10 +75,12 @@ Mijn startniveau is: Rood
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De html code heeft veel classes en ID's die niet noodzakelijk zijn
+  <img src="readme-images/index-24-04-2023.png" width="375px" alt="HTML met veel classes en ID's">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb alle classes en ID's die niet nodig zijn weg gehaald en in de css anders aangesproken. Ook heb ik wat onnodige wrapper elementen weggehaald, en   divs vervangen voor sections. 
+  <img src="readme-images/index-24-04-2023-v1.png" width="375px" alt="HTML met minder classes en ID's">
 
 
 
