@@ -12,3 +12,4 @@ frame.addEventListener('click', () => {
         frameimg.src = "img/items/info.png";
     }
 });
+
