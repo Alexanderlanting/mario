@@ -101,8 +101,8 @@ function scrollHandler() {
             var game = games[count + 1];
         }
         // the title of the game and the lap will be changed 
-        document.querySelector("section:nth-of-type(3) h2:nth-of-type(1)").innerHTML = game.title;
-        document.querySelector("section:nth-of-type(3) h2:nth-of-type(2)").innerHTML = game.lap;
+        document.querySelector("#grass h2:nth-of-type(1)").innerHTML = game.title;
+        document.querySelector("#grass h2:nth-of-type(2)").innerHTML = game.lap;
     }
 
     // when the scrollHandler is called the mario will be animated
@@ -122,8 +122,7 @@ function scrollHandler() {
 window.addEventListener("scroll", scrollHandler);
 
 // when the website is reloaded the scrollHandler will be called
-window.onbeforeunload = function () {
-    // the window will be scrolled to the top
+window.addEventListener('unload', function() {
     window.scrollTo(0, 0);
-}
-
+  });
+  

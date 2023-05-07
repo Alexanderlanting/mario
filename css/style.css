@@ -54,7 +54,7 @@ body {
     flex-direction: column;
     height: 100vh;
     overflow-x: scroll;
-    overflow-y: hidden; 
+    overflow-y: hidden;
     overscroll-behavior-x: contain;
     width: 1000em;
 }
@@ -68,6 +68,154 @@ body::after {
     width: 0;
     z-index: -1;
 }
+
+/* START */
+
+#start {
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    font-family: 'pixel-regular';
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+}
+
+#start h1 {
+    color: var(--color-white);
+    font-size: 28px;
+    margin: 0 40px;
+    z-index: 2;
+}
+
+#start p {
+    color: var(--color-white);
+    font-size: 16px;
+    margin: 0 40px;
+    z-index: 2;
+    margin-bottom: 40px;
+}
+
+#start button {
+    background-color: var(--color-black);
+    border-radius: 8px;
+    border: 8px ridge var(--color-white);
+    color: var(--color-white);
+    font-family: 'pixel-regular';
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px 15px 10px 15px;
+    transition: 0.2s ease-out;
+    z-index: 2;
+}
+
+#start button:hover {
+    background-color: var(--color-grey);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#start button:active {
+    background-color: var(--color-light-grey);
+    cursor: pointer;
+    transform: scale(1.0);
+}
+
+#start button:focus-visible {
+    border: 8px ridge var(--color-red);
+    outline: none;
+}
+
+
+/* START ANIMATION */
+
+
+@keyframes moveX {
+    from {
+        left: 0vw;
+    }
+
+    to {
+        left: calc(100vw - 7em);
+    }
+}
+
+@keyframes moveY {
+    from {
+        top: 0vh;
+    }
+
+    to {
+        top: calc(100vh - 7em);
+    }
+}
+
+#start img {
+    height: 7em;
+    position: absolute;
+    width: 7em;
+    z-index: 1;
+}
+
+#start img:nth-of-type(1) {
+    animation: moveX 2s linear -20s infinite alternate, moveY 3.4s linear -20s infinite alternate;
+}
+
+#start img:nth-of-type(2) {
+    animation: moveX 2.2s linear -20s infinite alternate, moveY 3.6s linear -20s infinite alternate;
+}
+
+#start img:nth-of-type(3) {
+    animation: moveX 2.4s linear -20s infinite alternate, moveY 3.8s linear -20s infinite alternate;
+}
+
+#start img:nth-of-type(4) {
+    animation: moveX 2.6s linear -20s infinite alternate, moveY 4s linear -20s infinite alternate;
+}
+
+#start img:nth-of-type(5) {
+    animation: moveX 2.8s linear -20s infinite alternate, moveY 4.2s linear -20s infinite alternate;
+}
+
+#start img:nth-of-type(6) {
+    animation: moveX 3s linear -20s infinite alternate, moveY 4.4s linear -20s infinite alternate;
+}
+
+#start img:nth-of-type(7) {
+    animation: moveX 3.2s linear -20s infinite alternate, moveY 4.6s linear -20s infinite alternate;
+}
+
+#start img:nth-of-type(8) {
+    animation: moveX 3.4s linear -20s infinite alternate, moveY 4.8s linear -20s infinite alternate;
+}
+
+#start img:nth-of-type(9) {
+    animation: moveX 3.6s linear -20s infinite alternate, moveY 5s linear -20s infinite alternate;
+}
+
+#start img:nth-of-type(10) {
+    animation: moveX 3.8s linear -20s infinite alternate, moveY 5.2s linear -20s infinite alternate;
+}
+
+.start-animation {
+    animation: start 0.4s 1 forwards;
+}
+
+@keyframes start {
+    0% {
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    100% {
+        visibility: hidden;
+        transform: translateY(-100%);
+    }
+}
+
 
 /* DYNAMIC BACKGROUND */
 
@@ -264,24 +412,27 @@ body::after {
     right: 32px;
 }
 
-#grass button:nth-of-type(1):hover, #grass button:nth-of-type(2):hover {
+#grass button:nth-of-type(1):hover,
+#grass button:nth-of-type(2):hover {
     background-color: var(--color-grey);
     cursor: pointer;
     transform: scale(1.1);
 }
 
-#grass button:nth-of-type(1):active, #grass button:nth-of-type(2):active {
+#grass button:nth-of-type(1):active,
+#grass button:nth-of-type(2):active {
     background-color: var(--color-light-grey);
     cursor: pointer;
     transform: scale(1.0);
 }
 
-#grass button:nth-of-type(1):focus-visible, #grass button:nth-of-type(2):focus-visible {
+#grass button:nth-of-type(1):focus-visible,
+#grass button:nth-of-type(2):focus-visible {
     border: 8px ridge var(--color-red);
     outline: none;
 }
 
-#grass button { 
+#grass button {
     background-color: var(--color-black);
     border-radius: 8px;
     border: 8px ridge var(--color-white);

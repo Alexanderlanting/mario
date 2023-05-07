@@ -39,13 +39,13 @@ function handleKeyDown(event) {
     // start scrolling only if arrow key is not already being held down, scrolling is not already in progress, and the body element does not have the no-scroll class
     arrowKeyDown = true;
     startScrolling(event.key === 'ArrowLeft' ? -1 : 1);
-  } else if ((event.key === 'Enter' || event.key === ' ') && !scrolling && content.classList.contains('no-scroll')) {
-    // prevent scrolling when user presses Enter or Spacebar while body has no-scroll class
+  } else if ((event.key === 'Enter' || event.key === ' ') && !scrolling && content.classList.contains('no-scroll') && (document.activeElement === scrollLeftBtn || document.activeElement === scrollRightBtn)) {
+    // prevent scrolling when user presses Enter or Spacebar on scrollLeftBtn or scrollRightBtn while body has no-scroll class
     event.preventDefault();
-  } else if ((event.key === 'Enter' || event.key === ' ') && document.activeElement === scrollLeftBtn && !scrolling) {
+  } else if ((event.key === 'Enter' || event.key === ' ') && document.activeElement === scrollLeftBtn && !scrolling && !content.classList.contains('no-scroll')) {
     // start scrolling left when user presses Enter or Space on scrollLeftBtn
     startScrolling(-1);
-  } else if ((event.key === 'Enter' || event.key === ' ') && document.activeElement === scrollRightBtn && !scrolling) {
+  } else if ((event.key === 'Enter' || event.key === ' ') && document.activeElement === scrollRightBtn && !scrolling && !content.classList.contains('no-scroll')) {
     // start scrolling right when user presses Enter or Space on scrollRightBtn
     startScrolling(1);
   }
