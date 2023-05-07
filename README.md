@@ -57,10 +57,13 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Wanneer Mario over een flag heen gaat moet ook de achtergrond veranderen
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb de body een class gegeven die steeds optelt van body1 naar body2 enzovoorts, hierdoor kan ik de background image per body veranderen. 
+  <br>
+  <img src="readme-images/js-20-04-2023.png" width="375px" alt="body class veranderen">
+
 
 
 
