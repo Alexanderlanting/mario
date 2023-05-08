@@ -141,7 +141,10 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 3:
-  ...
+  de buttons op de website hebben nog een focus state. 
+
+  #### oplossing:
+  Ik heb een focus state toegevoegd wanneer de button focus heeft. 
 
 </details>
 
