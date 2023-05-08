@@ -93,10 +93,10 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik moet nog progressive disclosure toevoegen in mijn ontwerp. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb een information button toegevoegd die in beeld komt aan het einde van de random box, als je hier op klikt zie je meer over de huidige Mario Kart game.
 
 
 
