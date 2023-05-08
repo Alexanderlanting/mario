@@ -73,6 +73,9 @@ Mijn startniveau is: Rood
   #### oplossing:
   Ik heb een finish animatie gemaakt net zoals je in het spel te zien krijgt wanneer je de game finished. 
 
+  <br>
+  <img src="readme-images/feedback.png" width="375px" alt="feedback">
+
 </details>
 
 
@@ -108,6 +111,11 @@ Mijn startniveau is: Rood
 
   #### oplossing:
   Ik heb een gras texture gemaakt voor elk spel en laad deze nu als background image in zodat er onder de weg ook gras is. 
+  
+  <br>
+  <img src="readme-images/01-feedback-michael.png" width="375px" alt="feedback">
+  <br>
+  <img src="readme-images/02-feedback-michael.png" width="375px" alt="feedback">
 
 </details>
 
@@ -145,6 +153,9 @@ Mijn startniveau is: Rood
 
   #### oplossing:
   Ik heb een focus state toegevoegd wanneer de button focus heeft. 
+
+  <br>
+  <img src="readme-images/feedback-salentino.png" width="375px" alt="feedback">
 
 </details>
 
