@@ -157,7 +157,10 @@ Mijn startniveau is: Rood
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/startscherm.png" width="375px" alt="final ontwerp">
+  <img src="readme-images/eindresultaat.png" width="375px" alt="final ontwerp">
+  <img src="readme-images/information.png" width="375px" alt="final ontwerp">
+  <img src="readme-images/finish.png" width="375px" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
