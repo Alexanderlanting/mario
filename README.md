@@ -119,15 +119,18 @@ Mijn startniveau is: Rood
   #### oplossing:
   Ik heb scrollbuttons toegevoegd, zodat je ook met je muis kan scrollen door te klikken. 
   <br>
-   <img src="readme-images/scrollbuttons.png" width="375px" alt="scrollbuttons op website">
+  <img src="readme-images/scrollbuttons.png" width="375px" alt="scrollbuttons op website">
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik had nog geen start scherm met een beetje uitleg over wat voor een website het is. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb een startscherm gemaakt met allemaal items uit Mario Kart die rondvliegen en een uitleg. 
+  <br>
+  <img src="readme-images/startscherm.png" width="375px" alt="startscherm">
+
 
 
 
