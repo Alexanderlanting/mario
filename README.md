@@ -68,7 +68,10 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 3:
-  ...
+  Wat ga ik maken als mario aan het einde van de website is? 
+
+  #### oplossing:
+  Ik heb een finish animatie gemaakt net zoals je in het spel te zien krijgt wanneer je de game finished. 
 
 </details>
 
@@ -101,7 +104,10 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 3:
-  ...
+  Aan de onderkant van de website staat nu een groene kleur, maar het zou beter zijn als beneden de weg ook het gras van de huidige game laat zien. 
+
+  #### oplossing:
+  Ik heb een gras texture gemaakt voor elk spel en laad deze nu als background image in zodat er onder de weg ook gras is. 
 
 </details>
 
