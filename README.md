@@ -184,6 +184,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Finish font mario (https://www.underware.nl/fonts/unibody/download/)
 2. Unibody 8 font (https://fonts.adobe.com/fonts/unibody-8)
-3. ...
+3. Mario Kart items en sprites (https://www.spriters-resource.com/)
 
 </details>
