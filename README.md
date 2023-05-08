@@ -117,10 +117,8 @@ Mijn startniveau is: Rood
 
   ### Feedback:
   <br>
-  <img src="readme-images/01-feedback-michael.png" width="375px" alt="feedback">
-  <br>
-  <img src="readme-images/02-feedback-michael.png" width="375px" alt="feedback">
-
+  <img src="readme-images/feedback-michael.png" width="375px" alt="feedback">
+ 
 </details>
 
 
