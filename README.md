@@ -164,15 +164,12 @@ Mijn startniveau is: Rood
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb mijzelf verder gespecialiseerd in HTML & CSS, ik begrijp beter hoe de verschillende position elementen elkaar beinvloeden. Verder heb ik in css bijvoorbeeld een "ridge" border gebruikt, ik had geen idee dat dit bestond. Javascript begrijp ik een stuk beter. Bovendien heb ik het project op een creatieve manier aangepakt, ik heb code geschreven die ik zelf ook leuk vond om te schrijven.  
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Het was lastig om alle verschillende assets te verzamelen van Mario Kart. Verder wou ik bijvoorbeeld nog een race mode toevoegen maar hier had ik niet genoeg tijd voor. Javascript blijf ik toch de lastigste code vinden en hierbij duurde het soms even voordat alles werkte. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
